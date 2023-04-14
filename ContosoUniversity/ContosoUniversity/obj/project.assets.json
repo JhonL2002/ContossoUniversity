@@ -10650,11 +10650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Trabajos_de_Jhon_UNAD\\C#\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "C:\\Trabajos_de_Jhon_UNAD\\C#\\AppMVCRelacional\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "C:\\Trabajos_de_Jhon_UNAD\\C#\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectPath": "C:\\Trabajos_de_Jhon_UNAD\\C#\\AppMVCRelacional\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Trabajos_de_Jhon_UNAD\\C#\\ContosoUniversity\\ContosoUniversity\\obj\\",
+      "outputPath": "C:\\Trabajos_de_Jhon_UNAD\\C#\\AppMVCRelacional\\ContosoUniversity\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
