@@ -58,7 +58,7 @@ namespace ContosoUniversity.Pages.Students
 
         private bool StudentExists(int id)
         {
-          return _context.Student.Any(e => e.Id == id);
+          return _context.Students.Any(e => e.Id == id);
         }
     }
 }

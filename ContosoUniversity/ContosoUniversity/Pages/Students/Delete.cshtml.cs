@@ -52,7 +52,7 @@ namespace ContosoUniversity.Pages.Students
             {
                 return NotFound();
             }
-            var student = await _context.Student.FindAsync(id);
+            var student = await _context.Students.FindAsync(id);
 
             if (student == null)
             {
