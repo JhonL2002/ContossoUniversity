@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<ContosoSchoolContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ContosoSchoolContext") ?? throw new InvalidOperationException("Connection string 'ContosoSchoolContext' not found.")));
 builder.Services.AddDbContext<SchoolContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolContext") ?? throw new InvalidOperationException("Connection string 'SchoolContext' not found.")));
 

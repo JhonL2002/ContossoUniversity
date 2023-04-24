@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using ContosoUniversity.Models.SchoolViewModels;
 
 namespace ContosoUniversity.Pages.Students
 {
