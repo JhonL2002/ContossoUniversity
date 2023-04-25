@@ -23,20 +23,21 @@ namespace ContosoUniversity.Pages.Courses
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Courses == null)
+            if (id == null)
             {
                 return NotFound();
             }
+            Course = await _context.Courses
+                .AsNoTracking()
+                .Include(c=>c.Department)
+                .FirstOrDefaultAsync(m=>m.CourseId== id);
 
-            var course = await _context.Courses.FirstOrDefaultAsync(m => m.CourseId == id);
-            if (course == null)
+            
+            if (Course == null)
             {
                 return NotFound();
             }
-            else 
-            {
-                Course = course;
-            }
+            
             return Page();
         }
     }
